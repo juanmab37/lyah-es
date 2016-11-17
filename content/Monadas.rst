@@ -909,7 +909,7 @@ tenemos que hacer lo siguiente: ::
         landLeft 1 second
         
 Cuando escribirmos una línea en la notación ``do`` sin ligar el valor monádico
-con ``<-``, es como poner ``>>`` después de ese valor monádico cuyo reulstado
+con ``<-``, es como poner ``>>`` después de ese valor monádico cuyo resultado
 queremos que ignore. Secuenciamos el valor monádico pero ignoramos su
 resultado ya que no nos importa y es más cómodo que escribir ``_ <- Nothing``,
 que por cierto, es lo mismo.
