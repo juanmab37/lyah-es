@@ -372,7 +372,7 @@ En la cuerda floja
    :align: left
    :alt: Pierre
 
-Ahora que ya sabemos como parar un valor del tipo ``Maybe a`` a una función
+Ahora que ya sabemos como pasar un valor del tipo ``Maybe a`` a una función
 del tipo ``a -> Maybe b`` teniendo en cuenta el contexto de un posible fallo,
 vamos a ver como podemos usar ``>>=`` repetidamente para manejar varios
 valores ``Maybe a``.
